@@ -30,35 +30,35 @@
             <div class="mini-link-box">
                 <ul class="mini-link">
                     <li>
-                        <a href="./index.html" class="mini-logo">{LEO}</a>
+                        <a href="./index.php" class="mini-logo">{LEO}</a>
                     </li>
                     <li>
                         <div class="link-mini-work" href="">
                             美食簡介
                             <ul class="sub-mini-link">
                                 <li>
-                                    <a href="./rice.html">飯類</a>
+                                    <a href="./rice.php">飯類</a>
                                 </li>
                                 <li>
-                                    <a href="./noodles.html">麵類</a>
+                                    <a href="./noodles.php">麵類</a>
                                 </li>
                                 <li>
-                                    <a href="./snack.html">點心</a>
+                                    <a href="./snack.php">點心</a>
                                 </li>
                                 <li>
-                                    <a href="./dessert.html">甜點</a>
+                                    <a href="./dessert.php">甜點</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li>
-                        <a href="./recommend.html">美食推薦</a>
+                        <a href="./recommend.php">美食推薦</a>
                     </li>
                     <li>
-                        <a href="./game.html">遊戲模式</a>
+                        <a href="./game.php">遊戲模式</a>
                     </li>
                     <li>
-                        <a href="./contact.html" data-st-target="list" data-st-duration="1000"
+                        <a href="./contact.php" data-st-target="list" data-st-duration="1000"
                             data-st-offset="100">聯絡方式</a>
                     </li>
                 </ul>
@@ -71,23 +71,23 @@
                 美食簡介
                 <ul class="sub-link">
                     <li>
-                        <a href="./rice.html">飯類</a>
+                        <a href="./rice.php">飯類</a>
                     </li>
                     <li>
-                        <a href="./noodles.html">麵類</a>
+                        <a href="./noodles.php">麵類</a>
                     </li>
                     <li>
-                        <a href="./snack.html">點心</a>
+                        <a href="./snack.php">點心</a>
                     </li>
                     <li>
-                        <a href="./dessert.html">甜點</a>
+                        <a href="./dessert.php">甜點</a>
                     </li>
                 </ul>
             </div>
-            <a href="./recommend.html">美食推薦</a>
-            <a href="./index.html" class="logo">{LEO}</a>
-            <a href="./game.html">遊戲模式</a>
-            <a href="./contact.html" data-st-target="list" data-st-duration="1000" data-st-offset="100">聯絡方式</a>
+            <a href="./recommend.php">美食推薦</a>
+            <a href="./index.php" class="logo">{LEO}</a>
+            <a href="./game.php">遊戲模式</a>
+            <a href="./contact.php" data-st-target="list" data-st-duration="1000" data-st-offset="100">聯絡方式</a>
         </div>
         <div id="social">
             <a href="https://www.youtube.com/results?search_query=eat+what" target="blank"><img src="./img/youtube.png"

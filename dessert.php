@@ -25,35 +25,35 @@
             <div class="mini-link-box">
                 <ul class="mini-link">
                     <li>
-                        <a href="./index.html" class="mini-logo">{LEO}</a>
+                        <a href="./index.php" class="mini-logo">{LEO}</a>
                     </li>
                     <li>
                         <div class="link-mini-work" href="">
                             美食簡介
                             <ul class="sub-mini-link">
                                 <li>
-                                    <a href="./rice.html">飯類</a>
+                                    <a href="./rice.php">飯類</a>
                                 </li>
                                 <li>
-                                    <a href="./noodles.html">麵類</a>
+                                    <a href="./noodles.php">麵類</a>
                                 </li>
                                 <li>
-                                    <a href="./snack.html">點心</a>
+                                    <a href="./snack.php">點心</a>
                                 </li>
                                 <li>
-                                    <a href="./dessert.html">甜點</a>
+                                    <a href="./dessert.php">甜點</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li>
-                        <a href="./recommend.html">美食推薦</a>
+                        <a href="./recommend.php">美食推薦</a>
                     </li>
                     <li>
-                        <a href="./game.html">遊戲模式</a>
+                        <a href="./game.php">遊戲模式</a>
                     </li>
                     <li>
-                        <a href="./contact.html" data-st-target="list" data-st-duration="1000"
+                        <a href="./contact.php" data-st-target="list" data-st-duration="1000"
                             data-st-offset="100">聯絡方式</a>
                     </li>
                 </ul>
@@ -66,23 +66,23 @@
                 美食簡介
                 <ul class="sub-link">
                     <li>
-                        <a href="./rice.html">飯類</a>
+                        <a href="./rice.php">飯類</a>
                     </li>
                     <li>
-                        <a href="./noodles.html">麵類</a>
+                        <a href="./noodles.php">麵類</a>
                     </li>
                     <li>
-                        <a href="./snack.html">點心</a>
+                        <a href="./snack.php">點心</a>
                     </li>
                     <li>
-                        <a href="./dessert.html">甜點</a>
+                        <a href="./dessert.php">甜點</a>
                     </li>
                 </ul>
             </div>
-            <a href="./recommend.html">美食推薦</a>
-            <a href="./index.html" class="logo">{LEO}</a>
-            <a href="./game.html">遊戲模式</a>
-            <a href="./contact.html" data-st-target="list" data-st-duration="1000" data-st-offset="100">聯絡方式</a>
+            <a href="./recommend.php">美食推薦</a>
+            <a href="./index.php" class="logo">{LEO}</a>
+            <a href="./game.php">遊戲模式</a>
+            <a href="./contact.php" data-st-target="list" data-st-duration="1000" data-st-offset="100">聯絡方式</a>
         </div>
         <div id="social">
             <a href="https://www.youtube.com/results?search_query=eat+what" target="blank"><img src="./img/youtube.png"
@@ -95,13 +95,13 @@
 
     <!-- 主要內容 -->
     <main>
-        <h2 class="title-word">點心</h2>
-        <img src="./img/snack1.jpg" alt="點心">
+        <h2 class="title-word">甜點</h2>
+        <img src="./img/dessert1.jpg" alt="麵包">
         <div class="writings">
-            <h3>點心</h3>
-            <p>在正餐以外的食物，包括但不限於零食。<br>
-                中式糕點又稱唐餅（與西餅相對），指的是用中國傳統工藝加工製作的糕點。<br>
-                烤雞又稱燒雞，意指將全雞或雞件使用如烤箱、營火、等高溫烹調設備使雞肉大部分不在接觸上將其煮熟為主。</p>
+            <h3>麵包</h3>
+            <p>麵包是一種用五穀（一般是麥類）磨粉製作並加熱而製成的食品。<br>
+                小圓麵包是一種小而簡單易做的麵包，通常是甜的。
+                小圓麵包通常介於小孩的拳頭和成人的手掌之間。</p>
         </div>
     </main>
 
@@ -110,32 +110,22 @@
         <div class="boxing">
             <div class="box_magic">
                 <div class="image_box">
-                    <img src="./img/snack2.jpg" alt="饅頭">
+                    <img src="./img/dessert2.jpg" alt="甜甜圈">
                 </div>
                 <div class="text_box">
-                    <h4>饅頭</h4>
-                    <p>饅頭中國傳統麵食，以麵粉和水按比例混合發酵後（或拌入內餡）蒸製而成的食品。華北地區稱為餑餑，關中、中原等地稱為饃、晉語、部分閩語地區也稱為饃饃等。通常是半球形、長方體，大小從直徑4公分左右到直徑15公分左右均有。其中，無餡的饅頭是中國北方人的主食。
-                    </p>
+                    <h4>甜甜圈</h4>
+                    <p>甜甜圈，中國大陸稱為甜甜圈，香港稱為冬甩，又稱圈餅、多拿滋、唐納滋，是一種用麵粉、砂糖、奶油和雞蛋混合後經過油炸的甜食。最普遍的兩種形狀是中空的環狀、或麵團中間有包入奶油、卡士達等甜餡料的封閉型甜甜圈。
+                        在美國有許多人以甜甜圈作為早餐的主食，並設立有甜甜圈日。近期甜甜圈的口味跟種類發展十分快速，研發出形形色色的口味。在亞洲，甜甜圈主要是被當成點心類的食物。</p>
                 </div>
             </div>
 
             <div class="box_magic">
                 <div class="image_box">
-                    <img src="./img/snack3.jpg" alt="蔥油餅">
+                    <img src="./img/dessert3.jpg" alt="鬆餅">
                 </div>
                 <div class="text_box">
-                    <h4>蔥油餅</h4>
-                    <p>蔥油餅是一種由蔥花作成的煎餅，在華人社會街頭如臺灣、香港、中國大陸，以及馬來西亞、新加坡等國家常見，常作為早餐或小吃食用。</p>
-                </div>
-            </div>
-
-            <div class="box_magic">
-                <div class="image_box">
-                    <img src="./img/snack4.jpg" alt="烤雞">
-                </div>
-                <div class="text_box">
-                    <h4>烤雞</h4>
-                    <p>烤雞又稱燒雞，意指將全雞或雞件使用如烤箱、營火、等高溫烹調設備使雞肉大部分不在接觸上將其煮熟為主。</p>
+                    <h4>鬆餅</h4>
+                    <p>華夫餅又稱為格子鬆餅、比利時鬆餅、格仔餅、壓花蛋餅，是一種烤餅，源於比利時，用華夫餅烘烤模烤成。烤盤上下兩面呈格子狀，一凹一凸，把倒進去的麵糊（或麵糰）壓出格子來。</p>
                 </div>
             </div>
         </div>

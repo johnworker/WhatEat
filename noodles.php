@@ -25,35 +25,35 @@
             <div class="mini-link-box">
                 <ul class="mini-link">
                     <li>
-                        <a href="./index.html" class="mini-logo">{LEO}</a>
+                        <a href="./index.php" class="mini-logo">{LEO}</a>
                     </li>
                     <li>
                         <div class="link-mini-work" href="">
                             美食簡介
                             <ul class="sub-mini-link">
                                 <li>
-                                    <a href="./rice.html">飯類</a>
+                                    <a href="./rice.php">飯類</a>
                                 </li>
                                 <li>
-                                    <a href="./noodles.html">麵類</a>
+                                    <a href="./noodles.php">麵類</a>
                                 </li>
                                 <li>
-                                    <a href="./snack.html">點心</a>
+                                    <a href="./snack.php">點心</a>
                                 </li>
                                 <li>
-                                    <a href="./dessert.html">甜點</a>
+                                    <a href="./dessert.php">甜點</a>
                                 </li>
                             </ul>
                         </div>
                     </li>
                     <li>
-                        <a href="./recommend.html">美食推薦</a>
+                        <a href="./recommend.php">美食推薦</a>
                     </li>
                     <li>
-                        <a href="./game.html">遊戲模式</a>
+                        <a href="./game.php">遊戲模式</a>
                     </li>
                     <li>
-                        <a href="./contact.html" data-st-target="list" data-st-duration="1000"
+                        <a href="./contact.php" data-st-target="list" data-st-duration="1000"
                             data-st-offset="100">聯絡方式</a>
                     </li>
                 </ul>
@@ -66,23 +66,23 @@
                 美食簡介
                 <ul class="sub-link">
                     <li>
-                        <a href="./rice.html">飯類</a>
+                        <a href="./rice.php">飯類</a>
                     </li>
                     <li>
-                        <a href="./noodles.html">麵類</a>
+                        <a href="./noodles.php">麵類</a>
                     </li>
                     <li>
-                        <a href="./snack.html">點心</a>
+                        <a href="./snack.php">點心</a>
                     </li>
                     <li>
-                        <a href="./dessert.html">甜點</a>
+                        <a href="./dessert.php">甜點</a>
                     </li>
                 </ul>
             </div>
-            <a href="./recommend.html">美食推薦</a>
-            <a href="./index.html" class="logo">{LEO}</a>
-            <a href="./game.html">遊戲模式</a>
-            <a href="./contact.html" data-st-target="list" data-st-duration="1000" data-st-offset="100">聯絡方式</a>
+            <a href="./recommend.php">美食推薦</a>
+            <a href="./index.php" class="logo">{LEO}</a>
+            <a href="./game.php">遊戲模式</a>
+            <a href="./contact.php" data-st-target="list" data-st-duration="1000" data-st-offset="100">聯絡方式</a>
         </div>
         <div id="social">
             <a href="https://www.youtube.com/results?search_query=eat+what" target="blank"><img src="./img/youtube.png"
@@ -95,13 +95,13 @@
 
     <!-- 主要內容 -->
     <main>
-        <h2 class="title-word">甜點</h2>
-        <img src="./img/dessert1.jpg" alt="麵包">
+        <h2 class="title-word">麵</h2>
+        <img src="./img/noodle1.jpg" alt="麵">
         <div class="writings">
-            <h3>麵包</h3>
-            <p>麵包是一種用五穀（一般是麥類）磨粉製作並加熱而製成的食品。<br>
-                小圓麵包是一種小而簡單易做的麵包，通常是甜的。
-                小圓麵包通常介於小孩的拳頭和成人的手掌之間。</p>
+            <h3>麵條</h3>
+            <p>麵條，一種用穀物或豆類的麵粉加水和成麵團，之後或者壓或擀製成片再切或壓，或者使用搓、拉、捏等手段，製成條狀（或窄或寬，或扁或圓）或小片狀的食品。可再經煮、炒、燴、炸等烹調方式食用。<br>
+                關於麵條的最早文字記錄在中國東漢時期，2005年時，中國社會科學院考古研究所研究員葉茂林在青海省的喇家遺址中發現了距今4,000年以上歷史的麵條，長50公分，寬0.3公分，由粟製成，根據最早的史料及實物佐證，因此通常認為麵起源於中國新石器時代。
+            </p>
         </div>
     </main>
 
@@ -110,22 +110,22 @@
         <div class="boxing">
             <div class="box_magic">
                 <div class="image_box">
-                    <img src="./img/dessert2.jpg" alt="甜甜圈">
+                    <img src="./img/noodle2.jpg" alt="牛肉麵">
                 </div>
                 <div class="text_box">
-                    <h4>甜甜圈</h4>
-                    <p>甜甜圈，中國大陸稱為甜甜圈，香港稱為冬甩，又稱圈餅、多拿滋、唐納滋，是一種用麵粉、砂糖、奶油和雞蛋混合後經過油炸的甜食。最普遍的兩種形狀是中空的環狀、或麵團中間有包入奶油、卡士達等甜餡料的封閉型甜甜圈。
-                        在美國有許多人以甜甜圈作為早餐的主食，並設立有甜甜圈日。近期甜甜圈的口味跟種類發展十分快速，研發出形形色色的口味。在亞洲，甜甜圈主要是被當成點心類的食物。</p>
+                    <h4>牛肉麵</h4>
+                    <p>牛肉麵是泛指各種以燉煮過的牛肉為主要配料的湯麵食，其根源難以追溯，但與近代牛肉麵調理方式較為接近的麵食，清燉類的牛肉麵部分認為起源於蘭州牛肉麵，原本是陳維精所創。據學者說法，紅燒風味牛肉麵可能起源於台灣高雄市岡山區空軍眷村，以四川成都菜「小碗紅湯牛肉」改良而成。
+                        現今牛肉麵已是華人的普遍食物，各地方的牛肉麵都有其特色。現在有不少泡麵都是以添加牛肉或牛肉口味而成牛肉麵，尤其是在台灣非常的普遍。</p>
                 </div>
             </div>
 
             <div class="box_magic">
                 <div class="image_box">
-                    <img src="./img/dessert3.jpg" alt="鬆餅">
+                    <img src="./img/noodle3.jpg" alt="拉麵">
                 </div>
                 <div class="text_box">
-                    <h4>鬆餅</h4>
-                    <p>華夫餅又稱為格子鬆餅、比利時鬆餅、格仔餅、壓花蛋餅，是一種烤餅，源於比利時，用華夫餅烘烤模烤成。烤盤上下兩面呈格子狀，一凹一凸，把倒進去的麵糊（或麵糰）壓出格子來。</p>
+                    <h4>拉麵</h4>
+                    <p>拉麵做法是將揉好的麵團拉長，摺疊，再拉長，反覆若干次，直到麵條足夠細為止。優秀的師傅能將麵條拉得又細又長，口感勁道十足。因為拉麵流行於中國西北，由於當地人飲食習慣，拉麵多為清真食品。</p>
                 </div>
             </div>
         </div>
