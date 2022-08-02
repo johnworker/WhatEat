@@ -1,4 +1,3 @@
-<?php wp_footer(); ?>
     <!-- 頁尾 -->
     <footer>
         <div>
@@ -19,6 +18,8 @@
     <!-- data-st-time 特效的持續時間 -->
     <a id="arrow" data-st-target="top" data-st-duration="800" data-st-top="300" data-st-time="1000"></a>
 
+
+    <?php wp_footer(); ?>
 
     <!-- AOS CDN -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
