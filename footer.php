@@ -19,7 +19,7 @@
     <a id="arrow" data-st-target="top" data-st-duration="800" data-st-top="300" data-st-time="1000"></a>
 
 
-    <?php wp_footer(); ?>
+   
 
     <!-- AOS CDN -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -33,7 +33,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
-    <script src="./main.js"></script>
+    <script src="<?php bloginfo('template_directory') ?>/main.js"></script>
 
+    <?php wp_footer(); ?>
 </body>
 </html>
