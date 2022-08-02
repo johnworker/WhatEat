@@ -1779,4 +1779,7 @@ section .boxing .box_magic:nth-child(even) .text_box {
   background: #b9ebff !important;
   background-image: url(./img/game_bg.png) !important;
 }
-/*# sourceMappingURL=style.css.map */
+/* 上方的bar */
+#wpadminbar {
+  display: none;
+}

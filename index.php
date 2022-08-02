@@ -72,12 +72,12 @@
             <a href="./contact.php" data-st-target="list" data-st-duration="1000" data-st-offset="100">聯絡方式</a>
         </div>
         <div id="social">
-            <a href="https://www.youtube.com/results?search_query=eat+what" target="blank"><img src="./img/youtube.png"
+            <a href="https://www.youtube.com/results?search_query=eat+what" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/youtube.png"
                     alt="youtube"></a>
-            <a href="https://www.instagram.com/besscomha" target="blank"><img src="./img/instagram.png" alt="instagram"></a>
-            <a href="http://m.facebook.com/yanjun.liao.50?ref=bookmarks" target="blank"><img src="./img/facebook.png"
+            <a href="https://www.instagram.com/besscomha" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/instagram.png" alt="instagram"></a>
+            <a href="http://m.facebook.com/yanjun.liao.50?ref=bookmarks" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/facebook.png"
                     alt="facebook"></a>
-            <a href="https://github.com/" target="blank"><img src="./img/github.png" alt="github"></a>
+            <a href="https://github.com/" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/github.png" alt="github"></a>
         </div>
     </nav>
 
@@ -117,47 +117,47 @@
 
             <div class="mini_box">
                 <div class="mini-card">
-                    <img src="./img/Introduction0.png" alt="手機螢幕">
+                    <img src="<?php bloginfo('template_directory') ?>/img/Introduction0.png" alt="手機螢幕"> 
                     <h3>主畫面</h3>
                 </div>
                 <div class="mini-card">
-                    <img src="img/Introduction1.png" alt="手機螢幕">
+                    <img src="<?php bloginfo('template_directory') ?>/img/Introduction1.png" alt="手機螢幕">
                     <h3>登入畫面</h3>
                 </div>
                 <div class="mini-card">
-                    <img src="img/Introduction2.png" alt="手機螢幕">
+                    <img src="<?php bloginfo('template_directory') ?>/img/Introduction2.png" alt="手機螢幕">
                     <h3>去過地點</h3>
                 </div>
                 <div class="mini-card">
-                    <img src="img/Introduction3.png" alt="手機螢幕">
+                    <img src="<?php bloginfo('template_directory') ?>/img/Introduction3.png" alt="手機螢幕">
                     <h3>問答模式</h3>
                 </div>
                 <div class="mini-card">
-                    <img src="img/Introduction4.png" alt="手機螢幕">
+                    <img src="<?php bloginfo('template_directory') ?>/img/Introduction4.png" alt="手機螢幕">
                     <h3>角色互動</h3>
                 </div>
                 <div class="mini-card">
-                    <img src="img/Introduction5.png" alt="手機螢幕">
+                    <img src="<?php bloginfo('template_directory') ?>/img/Introduction5.png" alt="手機螢幕">
                     <h3>按鈕提示</h3>
                 </div>
                 <div class="mini-card">
-                    <img src="img/Introduction7.png" alt="手機螢幕">
+                    <img src="<?php bloginfo('template_directory') ?>/img/Introduction7.png" alt="手機螢幕">
                     <h3>骰子</h3>
                 </div>
                 <div class="mini-card">
-                    <img src="img/Introduction8.png" alt="手機螢幕">
+                    <img src="<?php bloginfo('template_directory') ?>/img/Introduction8.png" alt="手機螢幕">
                     <h3>翻牌</h3>
                 </div>
                 <div class="mini-card">
-                    <img src="img/Introduction9.png" alt="手機螢幕">
+                    <img src="<?php bloginfo('template_directory') ?>/img/Introduction9.png" alt="手機螢幕">
                     <h3>輪盤</h3>
                 </div>
                 <div class="mini-card">
-                    <img src="img/Introduction10.png" alt="手機螢幕">
+                    <img src="<?php bloginfo('template_directory') ?>/img/Introduction10.png" alt="手機螢幕">
                     <h3>抽牌</h3>
                 </div>
                 <div class="mini-card">
-                    <img src="img/Introduction11.png" alt="手機螢幕">
+                    <img src="<?php bloginfo('template_directory') ?>/img/Introduction11.png" alt="手機螢幕">
                     <h3>選擇價格</h3>
                 </div>
             </div>
@@ -170,8 +170,8 @@
         <div id="news-content">
             <!-- (.news-card>img+h3{標題三}+p{lorem10}+button{按鈕})*3 -->
             <div class="news-card" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000">
-                <img class="recipe1" src="./img/method_change1.png" alt="食譜最新消息">
-                <img class="recipe2" src="./img/method1.png" alt="食譜最新消息">
+                <img class="recipe1" src="<?php bloginfo('template_directory') ?>/img/method_change1.png" alt="食譜最新消息">
+                <img class="recipe2" src="<?php bloginfo('template_directory') ?>/img/method1.png" alt="食譜最新消息">
                 <h4>食譜</h4>
                 <p>進行互動遊戲後，選出當下想吃的食物，提供您食譜方便製作。</p>
                 <button class="btn">
@@ -179,8 +179,8 @@
                 </button>
             </div>
             <div class="news-card" data-aos="zoom-in-up" data-aos-delay="800" data-aos-duration="1000">
-                <img class="recipe1" src="./img/method_change2.png" alt="外送最新消息">
-                <img class="recipe2" src="./img/method2.png" alt="外送最新消息">
+                <img class="recipe1" src="<?php bloginfo('template_directory') ?>/img/method_change2.png" alt="外送最新消息">
+                <img class="recipe2" src="<?php bloginfo('template_directory') ?>/img/method2.png" alt="外送最新消息">
                 <h4>外送</h4>
                 <p>適合忙碌或想好好休息的使用者使用，選出愛吃的食物後，系統幫您連接外送平台。</p>
                 <button class="btn">
@@ -188,8 +188,8 @@
                 </button>
             </div>
             <div class="news-card" data-aos="zoom-in-up" data-aos-delay="1000" data-aos-duration="1000">
-                <img class="recipe1" src="./img/method_change3.png" alt="餐廳最新消息">
-                <img class="recipe2" src="./img/method3.png" alt="餐廳最新消息">
+                <img class="recipe1" src="<?php bloginfo('template_directory') ?>/img/method_change3.png" alt="餐廳最新消息">
+                <img class="recipe2" src="<?php bloginfo('template_directory') ?>/img/method3.png" alt="餐廳最新消息">
                 <h4>餐廳</h4>
                 <p>想出外用餐或多人聚會又不知道如何選餐廳，別擔心系統將統整您的菜單，提供餐廳路線資訊給您。</p>
                 <button class="btn">
@@ -205,23 +205,23 @@
     <h2 class="title-big">最新遊戲</h2>
     <div id="work">
         <div class="work-card">
-            <img src="./img/function_dice.png" alt="遊戲方式">
+            <img src="<?php bloginfo('template_directory') ?>/img/function_dice.png" alt="遊戲方式">
             <h3>骰子</h3>
         </div>
         <div class="work-card">
-            <img src="./img/function_pump.png" alt="遊戲方式">
+            <img src="<?php bloginfo('template_directory') ?>/img/function_pump.png" alt="遊戲方式">
             <h3>抽牌</h3>
         </div>
         <div class="work-card">
-            <img src="./img/function_around.png" alt="遊戲方式">
+            <img src="<?php bloginfo('template_directory') ?>/img/function_around.png" alt="遊戲方式">
             <h3>輪盤</h3>
         </div>
         <div class="work-card">
-            <img src="./img/function_turn.png" alt="遊戲方式">
+            <img src="<?php bloginfo('template_directory') ?>/img/function_turn.png" alt="遊戲方式">
             <h3>翻牌</h3>
         </div>
         <div class="work-card">
-            <img src="./img/function_image.png" alt="遊戲方式">
+            <img src="<?php bloginfo('template_directory') ?>/img/function_image.png" alt="遊戲方式">
             <h3>互動</h3>
         </div>
     </div>
