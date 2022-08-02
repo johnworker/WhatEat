@@ -1,3 +1,10 @@
+<?php
+/** 
+ * Template Name: rice
+ * 
+ * 
+*/
+?>
 
 <?php get_header(); ?>
 
