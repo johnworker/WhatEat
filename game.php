@@ -1,29 +1,14 @@
-<!DOCTYPE html>
-<html lang="zh">
+<?php
+/** 
+ * Template Name: game
+ * 
+ * 
+*/
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>吃什麼網站 | 介紹</title>
-    <!-- AOS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- slick CDN -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-    <!-- bootstrap CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    
+<?php get_header(); ?>
 
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./dice.css">
-    <link rel="stylesheet" href="./Flip.css">
-    <link rel="stylesheet" href="./game_rwd.css">
-    
-</head>
 
-<body>
     <!-- 導覽列 -->
     <nav data-aos="fade" data-aos-delay="500" data-aos-duration="3000">
         <div id="menu">
@@ -90,11 +75,11 @@
             <a href="./contact.php" data-st-target="list" data-st-duration="1000" data-st-offset="100">聯絡方式</a>
         </div>
         <div id="social">
-            <a href="https://www.youtube.com/results?search_query=eat+what" target="blank"><img src="./img/youtube.png"
+            <a href="https://www.youtube.com/results?search_query=eat+what" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/youtube.png"
                     alt="youtube"></a>
-            <a href="https://www.instagram.com/besscomha" target="blank"><img src="./img/instagram.png" alt="instagram"></a>
-            <a href="http://m.facebook.com/yanjun.liao.50?ref=bookmarks" target="blank"><img src="./img/facebook.png" alt="facebook"></a>
-            <a href="https://github.com/" target="blank"><img src="./img/github.png" alt="github"></a>
+            <a href="https://www.instagram.com/besscomha" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/instagram.png" alt="instagram"></a>
+            <a href="http://m.facebook.com/yanjun.liao.50?ref=bookmarks" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/facebook.png" alt="facebook"></a>
+            <a href="https://github.com/" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/github.png" alt="github"></a>
         </div>
     </nav>
 
@@ -152,23 +137,23 @@
 
                     <!-- <h4>Horizontal Flip</h4> -->
                     <div class="flip">
-                        <div class="front" style="background-image: url(./img/one_card.png)">
+                        <div class="front" style="background-image: url(<?php bloginfo('template_directory') ?>/img/one_card.png)">
                         </div>
-                        <div class="back"  style="background-image: url(./img/food_draw.png);">
+                        <div class="back"  style="background-image: url(<?php bloginfo('template_directory') ?>/img/food_draw.png);">
                             <h3>蛋包飯</h3>
                         </div>
                     </div>
                     <div class="flip">
-                        <div class="front" style="background-image: url(./img/one_card.png)">
+                        <div class="front" style="background-image: url(<?php bloginfo('template_directory') ?>/img/one_card.png)">
                         </div>
-                        <div class="back" style="background-image: url(./img/food_draw2.png);">
+                        <div class="back" style="background-image: url(<?php bloginfo('template_directory') ?>/img/food_draw2.png);">
                             <h3>炒麵</h3>
                         </div>
                     </div>
                     <div class="flip">
-                        <div class="front" style="background-image: url(./img/one_card.png)">
+                        <div class="front" style="background-image: url(<?php bloginfo('template_directory') ?>/img/one_card.png)">
                         </div>
-                        <div class="back" style="background-image: url(./img/food_draw3.png);">
+                        <div class="back" style="background-image: url(<?php bloginfo('template_directory') ?>/img/food_draw3.png);">
                             <h3>牛排</h3>
                         </div>
                     </div>
@@ -178,8 +163,8 @@
           <div class="carousel-item">
             <h2>抽牌</h2>
                 <div class="draw_box">
-                    <img class="deck" src="./img/deck.png" alt="排堆">
-                    <img class="draw" src="./img/food_draw.png" alt="抽牌">
+                    <img class="deck" src="<?php bloginfo('template_directory') ?>/img/deck.png" alt="排堆">
+                    <img class="draw" src="<?php bloginfo('template_directory') ?>/img/food_draw.png" alt="抽牌">
                 </div>
           </div>
         </div>
@@ -196,35 +181,4 @@
     </section>
 
     <!-- 頁尾 -->
-    <footer>
-        <div>
-            <a href="" class="logo">{LEO}</a>
-        </div>
-        <small id="copy">
-            &copy; LEO 2021.
-        </small>
-        <div id="link">
-            <a href="./rice.html">美食簡介</a>
-            <a href="./recommend.html">美食推薦</a>
-            <a href="./game.html">遊戲模式</a>
-            <a href="./contact.html">聯絡方式</a>
-        </div>
-    </footer>
-
-    <!-- AOS CDN -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- slick CDN -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <!-- bootstrap CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-        crossorigin="anonymous"></script>
-
-    <script src="./main.js"></script>
-</body>
-
-</html>
+    <?php get_footer(); ?>

@@ -1,24 +1,14 @@
-<!DOCTYPE html>
-<html lang="zh">
+<?php
+/** 
+ * Template Name: snack
+ * 
+ * 
+*/
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>吃什麼網站 | 介紹</title>
-    <!-- AOS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- slick CDN -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-    <!-- bootstrap CDN -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<?php get_header(); ?>
 
-    <link rel="stylesheet" href="./style.css">
-</head>
 
-<body>
     <!-- 導覽列 -->
     <nav data-aos="fade" data-aos-delay="500" data-aos-duration="3000">
         <div id="menu">
@@ -85,18 +75,18 @@
             <a href="./contact.php" data-st-target="list" data-st-duration="1000" data-st-offset="100">聯絡方式</a>
         </div>
         <div id="social">
-            <a href="https://www.youtube.com/results?search_query=eat+what" target="blank"><img src="./img/youtube.png"
+            <a href="https://www.youtube.com/results?search_query=eat+what" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/youtube.png"
                     alt="youtube"></a>
-            <a href="https://www.instagram.com/besscomha" target="blank"><img src="./img/instagram.png" alt="instagram"></a>
-            <a href="http://m.facebook.com/yanjun.liao.50?ref=bookmarks" target="blank"><img src="./img/facebook.png" alt="facebook"></a>
-            <a href="https://github.com/" target="blank"><img src="./img/github.png" alt="github"></a>
+            <a href="https://www.instagram.com/besscomha" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/instagram.png" alt="instagram"></a>
+            <a href="http://m.facebook.com/yanjun.liao.50?ref=bookmarks" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/facebook.png" alt="facebook"></a>
+            <a href="https://github.com/" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/github.png" alt="github"></a>
         </div>
     </nav>
 
     <!-- 主要內容 -->
     <main>
         <h2 class="title-word">點心</h2>
-        <img src="./img/snack1.jpg" alt="點心">
+        <img src="<?php bloginfo('template_directory') ?>/img/snack1.jpg" alt="點心">
         <div class="writings">
             <h3>點心</h3>
             <p>在正餐以外的食物，包括但不限於零食。<br>
@@ -110,7 +100,7 @@
         <div class="boxing">
             <div class="box_magic">
                 <div class="image_box">
-                    <img src="./img/snack2.jpg" alt="饅頭">
+                    <img src="<?php bloginfo('template_directory') ?>/img/snack2.jpg" alt="饅頭">
                 </div>
                 <div class="text_box">
                     <h4>饅頭</h4>
@@ -121,7 +111,7 @@
 
             <div class="box_magic">
                 <div class="image_box">
-                    <img src="./img/snack3.jpg" alt="蔥油餅">
+                    <img src="<?php bloginfo('template_directory') ?>/img/snack3.jpg" alt="蔥油餅">
                 </div>
                 <div class="text_box">
                     <h4>蔥油餅</h4>
@@ -131,7 +121,7 @@
 
             <div class="box_magic">
                 <div class="image_box">
-                    <img src="./img/snack4.jpg" alt="烤雞">
+                    <img src="<?php bloginfo('template_directory') ?>/img/snack4.jpg" alt="烤雞">
                 </div>
                 <div class="text_box">
                     <h4>烤雞</h4>
@@ -142,34 +132,4 @@
     </section>
 
     <!-- 頁尾 -->
-    <footer>
-        <div>
-            <a href="" class="logo">{LEO}</a>
-        </div>
-        <small id="copy">
-            &copy; LEO 2021.
-        </small>
-        <div id="link">
-            <a href="./rice.html">美食簡介</a>
-            <a href="./recommend.html">美食推薦</a>
-            <a href="./game.html">遊戲模式</a>
-            <a href="./contact.html">聯絡方式</a>
-        </div>
-    </footer>
-
-    <!-- AOS CDN -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <!-- slick CDN -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <!-- bootstrap CDN -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-        crossorigin="anonymous"></script>
-    <script src="./main.js"></script>
-</body>
-
-</html>
+    <?php get_footer(); ?>

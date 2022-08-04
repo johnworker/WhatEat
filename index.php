@@ -20,16 +20,16 @@
                             美食簡介
                             <ul class="sub-mini-link">
                                 <li>
-                                    <a href="./rice.php">飯類</a>
+                                    <a href="<?php the_permalink(); ?>/rice.php">飯類</a>
                                 </li>
                                 <li>
-                                    <a href="./noodles.php">麵類</a>
+                                    <a href="<?php the_permalink(); ?>/noodles.php">麵類</a>
                                 </li>
                                 <li>
-                                    <a href="./snack.php">點心</a>
+                                    <a href="<?php the_permalink(); ?>/snack.php">點心</a>
                                 </li>
                                 <li>
-                                    <a href="./dessert.php">甜點</a>
+                                    <a href="<?php the_permalink(); ?>/dessert.php">甜點</a>
                                 </li>
                             </ul>
                         </div>

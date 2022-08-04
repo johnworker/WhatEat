@@ -1,24 +1,14 @@
-<!DOCTYPE html>
-<html lang="zh">
+<?php
+/** 
+ * Template Name: recommend
+ * 
+ * 
+*/
+?>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <title>吃什麼網站 | 介紹</title>
-  <!-- AOS -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <!-- slick CDN -->
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
-  <!-- bootstrap CDN -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<?php get_header(); ?>
 
-  <link rel="stylesheet" href="./style.css">
-</head>
 
-<body>
   <!-- 導覽列 -->
   <nav data-aos="fade" data-aos-delay="500" data-aos-duration="3000">
     <div id="menu">
@@ -83,11 +73,11 @@
       <a href="./contact.php" data-st-target="list" data-st-duration="1000" data-st-offset="100">聯絡方式</a>
     </div>
     <div id="social">
-      <a href="https://www.youtube.com/results?search_query=eat+what" target="blank"><img src="./img/youtube.png"
+      <a href="https://www.youtube.com/results?search_query=eat+what" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/youtube.png"
           alt="youtube"></a>
-      <a href="https://www.instagram.com/besscomha" target="blank"><img src="./img/instagram.png" alt="instagram"></a>
-      <a href="http://m.facebook.com/yanjun.liao.50?ref=bookmarks" target="blank"><img src="./img/facebook.png" alt="facebook"></a>
-      <a href="https://github.com/" target="blank"><img src="./img/github.png" alt="github"></a>
+      <a href="https://www.instagram.com/besscomha" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/instagram.png" alt="instagram"></a>
+      <a href="http://m.facebook.com/yanjun.liao.50?ref=bookmarks" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/facebook.png" alt="facebook"></a>
+      <a href="https://github.com/" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/github.png" alt="github"></a>
     </div>
   </nav>
 
@@ -98,22 +88,22 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./img/meal1.jpg" class="d-block w-100" alt="美食推薦">
+          <img src="<?php bloginfo('template_directory') ?>/img/meal1.jpg" class="d-block w-100" alt="美食推薦">
         </div>
         <div class="carousel-item">
-          <img src="./img/meal2.jpg" class="d-block w-100" alt="美食推薦">
+          <img src="<?php bloginfo('template_directory') ?>/img/meal2.jpg" class="d-block w-100" alt="美食推薦">
         </div>
         <div class="carousel-item">
-          <img src="./img/meal3.jpg" class="d-block w-100" alt="美食推薦">
+          <img src="<?php bloginfo('template_directory') ?>/img/meal3.jpg" class="d-block w-100" alt="美食推薦">
         </div>
         <div class="carousel-item">
-          <img src="./img/meal4.jpg" class="d-block w-100" alt="美食推薦">
+          <img src="<?php bloginfo('template_directory') ?>/img/meal4.jpg" class="d-block w-100" alt="美食推薦">
         </div>
         <div class="carousel-item">
-          <img src="./img/meal5.jpg" class="d-block w-100" alt="美食推薦">
+          <img src="<?php bloginfo('template_directory') ?>/img/meal5.jpg" class="d-block w-100" alt="美食推薦">
         </div>
         <div class="carousel-item">
-          <img src="./img/meal6.jpg" class="d-block w-100" alt="美食推薦">
+          <img src="<?php bloginfo('template_directory') ?>/img/meal6.jpg" class="d-block w-100" alt="美食推薦">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
@@ -133,7 +123,7 @@
     <div class="card mb-5 border-dark" style="max-width: 1280px;">
       <div class="row no-gutters">
         <div class="col-md-4 pt-md-5 pl-md-2">
-          <img class="food" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" src="./img/food1.jpg" alt="美食">
+          <img class="food" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" src="<?php bloginfo('template_directory') ?>/img/food1.jpg" alt="美食">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -154,7 +144,7 @@
     <div class="card mb-5 border-dark" style="max-width: 1280px;">
       <div class="row no-gutters">
         <div class="col-md-4 pt-md-5 pl-md-2">
-          <img class="food" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" src="./img/food2.jpg" alt="美食">
+          <img class="food" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" src="<?php bloginfo('template_directory') ?>/img/food2.jpg" alt="美食">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -185,7 +175,7 @@
     <div class="card mb-5 border-dark" style="max-width: 1280px;">
       <div class="row no-gutters">
         <div class="col-lg-0 col-md-4 pt-md-5 pl-md-2">
-          <img class="food" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" src="./img/food3.jpg" alt="美食">
+          <img class="food" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" src="<?php bloginfo('template_directory') ?>/img/food3.jpg" alt="美食">
         </div>
         <div class="col-md-8">
           <div class="card-body">
@@ -203,35 +193,5 @@
 
   </section>
 
-  <!-- 頁尾 -->
-  <footer>
-    <div>
-      <a href="" class="logo">{LEO}</a>
-    </div>
-    <small id="copy">
-      &copy; LEO 2021.
-    </small>
-    <div id="link">
-      <a href="./rice.html">美食簡介</a>
-      <a href="./recommend.html">美食推薦</a>
-      <a href="./game.html">遊戲模式</a>
-      <a href="./contact.html">聯絡方式</a>
-    </div>
-  </footer>
-
-  <!-- AOS CDN -->
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <!-- slick CDN -->
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <!-- bootstrap CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-    crossorigin="anonymous"></script>
-  <script src="./main.js"></script>
-</body>
-
-</html>
+    <!-- 頁尾 -->
+    <?php get_footer(); ?>

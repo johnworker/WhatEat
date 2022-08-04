@@ -22,7 +22,7 @@
                             美食簡介
                             <ul class="sub-mini-link">
                                 <li>
-                                    <a href="./rice.php">飯類</a>
+                                    <a href="<?php the_permalink(); ?>/rice.php">飯類</a>
                                 </li>
                                 <li>
                                     <a href="./noodles.php">麵類</a>
@@ -74,18 +74,18 @@
             <a href="./contact.php" data-st-target="list" data-st-duration="1000" data-st-offset="100">聯絡方式</a>
         </div>
         <div id="social">
-            <a href="https://www.youtube.com/results?search_query=eat+what" target="blank"><img src="./img/youtube.png"
+            <a href="https://www.youtube.com/results?search_query=eat+what" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/youtube.png"
                     alt="youtube"></a>
-            <a href="https://www.instagram.com/besscomha" target="blank"><img src="./img/instagram.png" alt="instagram"></a>
-            <a href="http://m.facebook.com/yanjun.liao.50?ref=bookmarks" target="blank"><img src="./img/facebook.png" alt="facebook"></a>
-            <a href="https://github.com/" target="blank"><img src="./img/github.png" alt="github"></a>
+            <a href="https://www.instagram.com/besscomha" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/instagram.png" alt="instagram"></a>
+            <a href="http://m.facebook.com/yanjun.liao.50?ref=bookmarks" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/facebook.png" alt="facebook"></a>
+            <a href="https://github.com/" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/github.png" alt="github"></a>
         </div>
     </nav>
 
     <!-- 主要內容 -->
     <main>
         <h2 class="title-word">飯</h2>
-        <img src="./img/rice1.jpg" alt="飯">
+        <img src="<?php bloginfo('template_directory') ?>/img/rice1.jpg" alt="飯">
         <div class="writings">
             <h3>白飯</h2>
                 <p>米飯是一種用稻米與水煮成的食物。米飯是亞洲國家最主要的糧食。米飯製法為一杯米加一杯到一杯半的水，煮出來的米適當的膨脹，裡面全熟即成。<br>
@@ -100,7 +100,7 @@
         <div class="boxing">
             <div class="box_magic">
                 <div class="image_box">
-                    <img src="./img/rice2.jpg" alt="滷肉飯">
+                    <img src="<?php bloginfo('template_directory') ?>/img/rice2.jpg" alt="滷肉飯">
                 </div>
                 <div class="text_box">
                     <h4>滷肉飯</h4>
@@ -110,7 +110,7 @@
             </div>
             <div class="box_magic">
                 <div class="image_box">
-                    <img src="./img/rice3.jpg" alt="炒飯">
+                    <img src="<?php bloginfo('template_directory') ?>/img/rice3.jpg" alt="炒飯">
                 </div>
                 <div class="text_box">
                     <h4>炒飯</h4>
@@ -120,5 +120,6 @@
             </div>
         </div>
     </section>
+    
     <!-- 頁尾 -->
     <?php get_footer(); ?>

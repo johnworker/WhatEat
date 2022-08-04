@@ -27,7 +27,11 @@
 
     <!-- <link href="<?php bloginfo('template_directory') ?>/css/elementor.css" rel="stylesheet" /> -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+
+    <link href="<?php bloginfo('template_directory') ?>/Flip.css" rel="stylesheet" />
+    <link href="<?php bloginfo('template_directory') ?>/dice.css" rel="stylesheet" />
     <link href="<?php bloginfo('template_directory') ?>/style.css" rel="stylesheet" />
+    <link href="<?php bloginfo('template_directory') ?>/game_rwd.css" rel="stylesheet" />
 
 </head>
 
