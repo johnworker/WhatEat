@@ -13,7 +13,7 @@
             <div class="mini-link-box">
                 <ul class="mini-link">
                     <li>
-                        <a href="<?php the_permalink(); ?>/index.php" class="mini-logo">{LEO}</a>
+                        <a href="<?php bloginfo('template_directory') ?>/index.php" class="mini-logo">{LEO}</a>
                     </li>
                     <li>
                         <div class="link-mini-work" href="">
