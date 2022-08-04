@@ -7,10 +7,10 @@
             &copy; LEO 2021.
         </small>
         <div id="link">
-            <a href="./rice.php">美食簡介</a>
-            <a href="./recommend.php">美食推薦</a>
-            <a href="./game.php">遊戲模式</a>
-            <a href="./contact.php">聯絡方式</a>
+            <a href="<?php the_permalink(); ?>/rice.php">美食簡介</a>
+            <a href="<?php the_permalink(); ?>/recommend.php">美食推薦</a>
+            <a href="<?php the_permalink(); ?>/game.php">遊戲模式</a>
+            <a href="<?php the_permalink(); ?>/contact.php">聯絡方式</a>
         </div>
     </footer>
 
