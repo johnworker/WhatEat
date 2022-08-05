@@ -54,8 +54,7 @@ body {
 /* menu */
 .menu {
   list-style-type: none;
-  top: 56px;
-  left: 4px;
+  position: relative;
   height: 70px;
   background: rgba(236, 236, 236, 0.9);
 }
@@ -84,18 +83,150 @@ body {
   text-decoration: none;
 }
 
-#menu-item-151 a {
-  font-size: 20px;
-  font-weight: bolder;
-  font-family: "微軟正黑體";
-  transform: scale(1);
-  transition: 0.5s;
-}
-
 #menu-item-151 a:hover {
   transform: scale(1.5);
 }
 
+/* sub_menu */
+.sub_menu {
+  transition: 1s;
+  transform-origin: top;
+  top: 56px;
+  left: 4px;
+  width: 180px;
+  height: 300px;
+}
+
+.sub_menu:hover {
+  display: block; 
+}
+
+.sub_menu ul {
+  width: 180px;
+  height: 300px;
+  position: absolute;
+  opacity: 0;
+  transition: 1s;
+  transform: scale(0.5);
+  transform-origin: top;
+}
+
+.sub_menu ul:hover {
+  height: 300px;
+  opacity: 1;
+  transform: scale(1);
+}
+
+
+.sub_menu a {
+  padding: 20px 60px !important;
+  width: 180px !important;
+  color: #000;
+  transition: 0.5s;
+}
+
+.sub_menu a:hover {
+  color: hsl(20, 100%, 50%);
+}
+
+/* menu_btn */
+.btn_box {
+  height: 100%;
+}
+
+.menu_btn {
+  width: 50px;
+  height: 30px;
+  background: rgba(0, 0, 0, 0);
+  position: fixed;
+  left: 30px;
+  top: 30px;
+  z-index: 30;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.menu_btn:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.menu_btn span {
+  display: block;
+  height: 3px;
+  width: 60%;
+  margin: 0 auto;
+  background: #666;
+  opacity: 1;
+  transition: all .3s;
+}
+
+.menu_btn span:first-child {
+  margin-top: 2px;
+}
+
+.menu_btn span:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.menu_btn.active span:first-child {
+  transform: rotate(45deg) translate(10px, 10px);
+}
+
+.menu_btn.active span:last-child {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+.menu_btn.active span:not(:first-child):not(:last-child) {
+  opacity: 0;
+}
+
+.menu_wrap {
+  position: fixed;
+  width: 26%;
+  left: -26%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 12;
+  padding: 4rem;
+  transition: right 5s;
+}
+
+.menu_wrap ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: rgb(0, 0, 0, 0);
+}
+
+.menu_wrap li {
+padding: 0;
+width: 400px;
+}
+
+.btn_box .menu_wrap a {
+  width: 400px !important;
+  padding-bottom: 80px;
+}
+
+.menu_wrap a {
+  font-size: 60px;
+  color: #666;
+  text-decoration: none;
+  transition: color 5s;
+}
+
+.menu_wrap a:hover {
+  color: rgb(255, 0, 0);
+}
+
+.menu_wrap.active {
+  left: 0 !important;
+  z-index: 20;
+}
+
+/* nav */
 nav {
   display: -ms-grid;
   display: grid;

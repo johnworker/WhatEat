@@ -1,3 +1,14 @@
+// 漢堡選單
+$('.menu_btn').click(function() {
+    $('.menu_wrap').toggleClass('active');
+    $(this).toggleClass('active');
+});
+
+// 附加選單
+$('.sub_menu').hover(function() {
+    $('.sub_menu ul').toggleClass('active');
+    $(this).toggleClass('active');
+});
 
 // slick
 $("#banner").slick({

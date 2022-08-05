@@ -14,6 +14,9 @@
     <div></div>
         <div id="menu">
             <?php wp_nav_menu( array( 'theme_location' =>'primary-menu' ) ); ?>
+            <div class= "sub_menu">
+                    <?php wp_nav_menu( array( 'theme_location' =>'sub-menu' ) ); ?>
+            </div>
         </div>
         <div id="social">
             <a href="https://www.youtube.com/results?search_query=eat+what" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/youtube.png"

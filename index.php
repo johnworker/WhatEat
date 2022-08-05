@@ -9,9 +9,21 @@
 
     <!-- 導覽列 -->
     <nav data-aos="fade" data-aos-delay="500" data-aos-duration="3000">
-        <div></div>
+    <div class="btn_box">
+        <div class="menu_wrap">
+            <?php wp_nav_menu( array( 'theme_location' =>'primary-menu' ) ); ?>
+        </div>
+
+        <div class="menu_btn">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+
         <div id="menu">
             <?php wp_nav_menu( array( 'theme_location' =>'primary-menu' ) ); ?>
+            <div class= "sub_menu">
+                    <?php wp_nav_menu( array( 'theme_location' =>'sub-menu' ) ); ?>
+            </div>
         </div>
         <div id="social">
             <a href="https://www.youtube.com/results?search_query=eat+what" target="blank"><img src="<?php bloginfo('template_directory') ?>/img/youtube.png"
