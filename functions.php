@@ -1,9 +1,17 @@
 <?php
     register_nav_menus(
-        array('primary-menu' => __('{美食簡介}'), 'story-menu' => __('{美食推薦}'), 'research-menu' => __('{遊戲模式}'), 'analysis-menu' => __('{聯絡方式}') )
+        array('primary-menu' => __('{主選單}'), 'introduction-menu' => __('{美食簡介}'), 'recommend-menu' => __('{美食推薦}'), 'game-menu' => __('{遊戲模式}'), 'contact-menu' => __('{聯絡方式}') )
     );
     
 ?>
+
+<?php
+    register_nav_menus(
+        array('sub-menu' => __('{次選單}') )
+    );
+    
+?>
+
 
 <?php
 if (function_exists('register_sidebar')){

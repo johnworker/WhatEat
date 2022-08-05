@@ -7,10 +7,7 @@
             &copy; LEO 2021.
         </small>
         <div id="link">
-            <a href="<?php the_permalink(); ?>/rice.php">美食簡介</a>
-            <a href="<?php the_permalink(); ?>/recommend.php">美食推薦</a>
-            <a href="<?php the_permalink(); ?>/game.php">遊戲模式</a>
-            <a href="<?php the_permalink(); ?>/contact.php">聯絡方式</a>
+            <?php wp_nav_menu( array( 'theme_location' =>'primary-menu' ) ); ?>
         </div>
     </footer>
 
@@ -33,7 +30,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
-    <script src="<?php bloginfo('template_directory') ?>/main.js"></script>
+    <script src="<?php bloginfo('template_directory') ?>/js/main.js"></script>
 
     <?php wp_footer(); ?>
 </body>
