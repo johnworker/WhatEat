@@ -1,3 +1,11 @@
+// menu-btn
+$('.menu-btn').click(function() {
+    $('.menu-wrap').toggleClass('active');
+    $(this).toggleClass('active');
+});
+
+
+// slick
 $("#banner").slick({
     dots: true,
     autoplay: true,
