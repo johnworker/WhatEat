@@ -33,15 +33,15 @@
     <!-- 方法：傳送資料的方式 -->
     <!-- GET 曝光表單資料 -->
     <!-- POST 不會曝光表單資料 -->
-    <form action="javascript:Sendform();">
+    <form action="javascript:Goform();">
         <input type="text" name="name" placeholder="請輸入您的姓名" required>
         <input type="email" name="email" placeholder="請輸入您的信箱" required>
         <textarea placeholder="輸入你想對LEO說的話" type="text" name="msg"></textarea>
         <input type="submit" value="送出" class="btn">
     </form>
 
-    <script src="">
-        function Sendform() {
+    <script>
+        function Goform() {
         var field1 = $("[name = 'name']").val();
         var field2 = $("[name = 'email']").val();
         var field3 = $("[name = 'msg']").val();
