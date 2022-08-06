@@ -1460,6 +1460,18 @@ footer #link .menu {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 1850px) {
+  footer #link .menu {
+    width: 28% !important;
+  }
+}
+
+@media screen and (min-width: 961px) {
+  footer #link .menu {
+    width: 40%;
+  }
+}
+
 @media screen and (max-width: 960px) {
   footer #link .menu {
     width: 70%;
@@ -1476,6 +1488,13 @@ footer #link .menu li {
   padding: 1px 0;
   width: 100px;
 }
+
+@media screen and (min-width: 961px) {
+  footer #link .menu li {
+    width: 100px !important;
+  }
+}
+
 
 @media screen and (max-width: 960px) {
   footer #link .menu li {
@@ -1498,6 +1517,15 @@ footer #link a {
   font-weight: 400;
   padding: 0 5px;
   width: 100px !important;
+}
+
+@media screen and (min-width: 961px) {
+  footer #link a {
+    display: block;
+    padding: 0 5px;
+    width: 100px !important;
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 960px) {
