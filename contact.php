@@ -33,12 +33,39 @@
     <!-- 方法：傳送資料的方式 -->
     <!-- GET 曝光表單資料 -->
     <!-- POST 不會曝光表單資料 -->
-    <form action="get.Massage.php" method="POST">
-        <input type="text" name="user-name" placeholder="請輸入您的姓名" required>
-        <input type="email" name="user-email" placeholder="請輸入您的信箱" required>
-        <textarea placeholder="輸入你想對LEO說的話"></textarea>
+    <form action="javascript:Sendform();">
+        <input type="text" name="name" placeholder="請輸入您的姓名" required>
+        <input type="email" name="email" placeholder="請輸入您的信箱" required>
+        <textarea placeholder="輸入你想對LEO說的話" type="text" name="msg"></textarea>
         <input type="submit" value="送出" class="btn">
     </form>
+
+    <script src="">
+        function Sendform() {
+        var field1 = $("[name = 'name']").val();
+        var field2 = $("[name = 'email']").val();
+        var field3 = $("[name = 'msg']").val();
+
+        $.ajax({
+            url: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeJx58gTD0af0lnkQR73ko9iT3o6ZDFK6b0PWfwWwgapb1WSg/formResponse",
+            data: {
+                "entry.908405989": field1,
+                "entry.1562783350": field2,
+                "entry.988036646": field3,
+            },
+            type: "POST",
+            dataType: "xml",
+            statusCode: {
+                0: function () {
+                    alart("完成");
+                },
+                200: function () {
+                    alart("完成");
+                }
+            }
+        });
+    }   
+    </script>
 
     <!-- 頁尾 -->
     <?php get_footer(); ?>
