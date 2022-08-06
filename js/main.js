@@ -4,6 +4,12 @@ $('.menu_btn').click(function() {
     $(this).toggleClass('active');
 });
 
+// 漢堡選單
+$('.sub_menu_btn').click(function() {
+    $('.sub_menu_wrap').toggleClass('active');
+    $(this).toggleClass('active');
+});
+
 // 附加選單
 $('.sub_menu').hover(function() {
     $('.sub_menu ul').toggleClass('active');

@@ -1,0 +1,58 @@
+.menu_wrap {
+    position: fixed;
+    width: 26%;
+    left: -26%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 12;
+    padding: 4rem;
+    transition: left 1s;
+  }
+  
+  @media screen and (min-width: 1201px) {
+    .menu_wrap {
+      display: none;
+    }
+  }
+  
+  
+  @media screen and (max-width: 1200px) {
+    .menu_wrap {
+      width: 34% !important;
+      left: -55%;
+      display: block;
+      padding: 4rem;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .menu_wrap {
+      padding: 3.5rem;
+      width: 20% !important;
+    }
+  }
+
+  .menu_wrap li {
+    padding: 0;
+    width: 400px;
+    }
+    
+    @media screen and (max-width: 1200px) {
+        .menu_wrap li {
+          width: 400px;
+        }
+      }
+      
+      @media screen and (max-width: 767px) {
+        .menu_wrap li {
+          width: 150px !important;
+        }
+      }
+    
+
+/* nav */
+nav {
+    position: fixed !important;
+}  

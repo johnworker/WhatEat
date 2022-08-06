@@ -8,10 +8,30 @@
 
 <?php get_header(); ?>
 
+<link href="<?php bloginfo('template_directory') ?>/css/recommend.css" rel="stylesheet" />
+
 
   <!-- 導覽列 -->
   <nav data-aos="fade" data-aos-delay="500" data-aos-duration="3000">
-  <div></div>
+  <div class="btn_box">
+        <div class="menu_wrap">
+            <?php wp_nav_menu( array( 'theme_location' =>'primary-menu' ) ); ?>
+        </div>
+
+        <div class="menu_btn">
+            <span></span><span></span><span></span>
+        </div>
+    </div>
+            <div class="sub_btn_box">
+                <div class="sub_menu_wrap">
+                    <?php wp_nav_menu( array( 'theme_location' =>'sub-menu' ) ); ?>
+                </div>
+
+                <div class="sub_menu_btn">
+                    <img src="<?php bloginfo('template_directory') ?>/img/once_cake.png" alt="蛋糕">
+                </div>
+            </div>
+
         <div id="menu">
             <?php wp_nav_menu( array( 'theme_location' =>'primary-menu' ) ); ?>
             <div class= "sub_menu">
