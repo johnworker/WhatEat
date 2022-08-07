@@ -5,7 +5,7 @@ Description: {讓使用者透過網站遊戲選當下想吃的美食}
 Author: {Leo}
 Author URI: {作者網址}
 Version: {版本}
-Tags: {版型標籤}
+Tags: {html、css、javascript、php}
 License: {授權方式}
 License URI: {授權說明網址}
 */
@@ -1868,7 +1868,7 @@ section .boxing .box_magic:nth-child(even) .text_box {
   padding: 10px 30px;
   display: block;
   margin: 0 auto;
-  width: 80%;
+  width: 40%;
   font-size: 20px;
   border-radius: 5px;
   border: none;
@@ -1876,6 +1876,19 @@ section .boxing .box_magic:nth-child(even) .text_box {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+
+@media screen and (max-width: 1024px) {
+  .btn {
+    width: 18%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .btn {
+    width: 36%;
+  }
+}
+
 
 .btn:hover {
   border: 1px solid #252525;
