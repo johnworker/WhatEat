@@ -262,7 +262,7 @@ body {
   top: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-  z-index: 12;
+  z-index: -1;
   padding: 4rem;
   transition: left 1s;
 }
@@ -276,10 +276,10 @@ body {
 
 @media screen and (max-width: 1200px) {
   .menu_wrap {
-    width: 55%;
-    left: -55%;
+    width: 57%;
+    left: -57%;
     display: block;
-    padding: 4rem;
+    padding: 4.5rem;
   }
 }
 
@@ -301,24 +301,35 @@ body {
 .menu_wrap li {
 padding: 0;
 width: 400px;
+z-index: 1;
+}
+
+@media screen and (max-width: 1200px) {
+  .menu_wrap li {
+    width: 380px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu_wrap li {
+    width: 150px;
+  }
 }
 
 .btn_box .menu_wrap a {
   width: 400px !important;
-  padding-bottom: 80px;
 }
 
 @media screen and (max-width: 1200px) {
   .btn_box .menu_wrap a {
     width: 400px !important;
-    padding-bottom: 80px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .btn_box .menu_wrap a {
     width: 150px !important;
-    padding-bottom: 80px;
   }
 }
 
@@ -2242,19 +2253,19 @@ section .boxing .box_magic:nth-child(even) .text_box {
 
 .games .carousel-item:nth-of-type(1) {
   background: #b9ebff !important;
-  background-image: url(./img/game_bg.png) !important;
+  background-image: url(./img/game_bg_full.jpg) !important;
   background-size: cover;
   background-image: blur(5px);
 }
 
 .games .carousel-item:nth-of-type(2) {
   background: #b9ebff !important;
-  background-image: url(./img/game_bg.png) !important;
+  background-image: url(./img/game_bg_full.jpg) !important;
 }
 
 .games .carousel-item:nth-of-type(3) {
   background: #b9ebff !important;
-  background-image: url(./img/game_bg.png) !important;
+  background-image: url(./img/game_bg_full.jpg) !important;
 }
 /* 上方的bar */
 #wpadminbar {

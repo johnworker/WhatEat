@@ -20,7 +20,7 @@
   
   @media screen and (max-width: 1200px) {
     .menu_wrap {
-      width: 34% !important;
+      width: 37% !important;
       left: -55%;
       display: block;
       padding: 4rem;
@@ -33,6 +33,14 @@
       width: 20% !important;
     }
   }
+
+  .menu_wrap ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+  }
+  
 
   .menu_wrap li {
     padding: 0;
